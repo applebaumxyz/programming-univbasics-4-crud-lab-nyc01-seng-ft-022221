@@ -16,6 +16,8 @@ def add_element_to_end_of_array(array, element)
   
 end
 
+p add_element_to_end_of_array("array", "element")
+
 p add_element_to_end_of_array
 
 def add_element_to_start_of_array(array, element)
