@@ -65,6 +65,7 @@ p retrieve_last_element_from_array("array")
 def update_element_from_index(array, index_number, element)
 	array = ["wow", "I", "am", "really", "learning", "arrays!"]
   index_number = 4
+  array[5] = "totally"
 end
 p update_element_from_index("array", 4, "totally")
 
