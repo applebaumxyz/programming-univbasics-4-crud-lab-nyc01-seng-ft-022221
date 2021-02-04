@@ -8,10 +8,12 @@ def create_an_array
   ["dog", "cat", "fish", "monkey"]
 end
 
-def add_element_to_end_of_array(array, element)
-  ["dog", "cat", "fish", "monkey"]
-  add_element_to_end_of_array(animals, "weasel") << "weasel"
+def add_element_to_end_of_array
+	array = ["wow", "I", "am", "really", "learning"]
+  element = "arrays!"
 end
+
+p add_element_to_end_of_array
 
 def add_element_to_start_of_array(array, element)
   
